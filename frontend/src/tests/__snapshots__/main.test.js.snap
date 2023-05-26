@@ -1,0 +1,1323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About renders correctly 1`] = `<div />`;
+
+exports[`Cities filter renders correctly 1`] = `<div />`;
+
+exports[`Cities instance renders correctly 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "width": "18rem",
+    }
+  }
+>
+  <img
+    className="card-img-top"
+    height="150"
+    width="200"
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+      <span />
+    </div>
+    <p>
+      State:
+       
+      <span />
+    </p>
+    <p>
+      Population:
+       
+      <span />
+    </p>
+    <p>
+      Median Household Income: $
+      <span />
+    </p>
+    <p>
+      People with disability:
+       
+      <span>
+        <span
+          className=""
+        >
+          undefined
+        </span>
+      </span>
+      %
+    </p>
+    <p>
+      People with no health insurance:
+       
+      <span>
+        <span
+          className=""
+        >
+          undefined
+        </span>
+      </span>
+      %
+    </p>
+    <a
+      href="/cities/undefined"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        type="button"
+      >
+        See more
+      </button>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Cities renders correctly 1`] = `<div />`;
+
+exports[`Cities search renders correctly 1`] = `<div />`;
+
+exports[`Cities sort renders correctly 1`] = `<div />`;
+
+exports[`Contaminants filter renders correctly 1`] = `<div />`;
+
+exports[`Contaminants instance renders correctly 1`] = `
+<div>
+   Loading
+</div>
+`;
+
+exports[`Contaminants renders correctly 1`] = `<div />`;
+
+exports[`Contaminants search renders correctly 1`] = `<div />`;
+
+exports[`Contaminants sort renders correctly 1`] = `<div />`;
+
+exports[`General renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    id="navbar"
+  >
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <div
+        className="container"
+      >
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          <img
+            alt=""
+            height="30"
+            src="./cnme_logo.svg"
+            width="30"
+          />
+        </a>
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          Chemicals Near Me
+        </a>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            className="me-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/superfunds"
+              disabled={false}
+              href="/superfunds"
+              onClick={[Function]}
+            >
+              Superfund Sites
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/contaminants"
+              disabled={false}
+              href="/contaminants"
+              onClick={[Function]}
+            >
+              Contaminants
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/cities"
+              disabled={false}
+              href="/cities"
+              onClick={[Function]}
+            >
+              Cities
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/our-visualizations"
+              disabled={false}
+              href="/our-visualizations"
+              onClick={[Function]}
+            >
+              Our Visualizations
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/provider-visualizations"
+              disabled={false}
+              href="/provider-visualizations"
+              onClick={[Function]}
+            >
+              Provider Visualizations
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key="/about"
+              disabled={false}
+              href="/about"
+              onClick={[Function]}
+            >
+              About
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="cardContainer"
+  >
+    <div
+      className="container"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "2rem",
+          "justifyContent": "center",
+          "marginTop": "1.5rem",
+        }
+      }
+    >
+      <div
+        className="input-group"
+        style={
+          Object {
+            "maxWidth": "75%",
+          }
+        }
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          value=""
+        />
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <div
+      className="modelCard container-fluid"
+    >
+      <div
+        className="modelCardAlert container-fluid"
+      >
+        <div
+          className="modelCardContent container-fluid"
+        >
+          <h1
+            className="alertSubtitle"
+          >
+            Are you in danger of
+          </h1>
+          <h1
+            className="alertTitle"
+          >
+            contamination?
+          </h1>
+          <p
+            style={
+              Object {
+                "marginTop": "1rem",
+              }
+            }
+          >
+            <a
+              href="https://www.epa.gov/p2"
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Prevent pollution
+            </a>
+             
+            in your community
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="modelCardCarousel container"
+    >
+      <h1
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingBottom": "1rem",
+          }
+        }
+      >
+        Superfund Success Stories
+      </h1>
+      <div
+        className="carousel slide carousel-dark"
+        onKeyDown={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+      >
+        <div
+          className="carousel-inner"
+        >
+          <div
+            className="cardCarouselRow active carousel-item"
+            style={
+              Object {
+                "paddingLeft": "9.3vw",
+              }
+            }
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      Pantex Plant
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The Pantex Plant Superfund Site is located 17 miles northeast of Amarillo, Texas...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0604060"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      RSR Corporation
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The RSR Corporation Superfund site is a former lead smelter located in West Dallas...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0602297"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      Eastland Woolen Mill
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The 25-acre Eastland Woolen Mill Superfund Site is located in the Town of Coriima...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0101043"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="cardCarouselRow carousel-item"
+            style={
+              Object {
+                "paddingLeft": "9.3vw",
+              }
+            }
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      California Gulch
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The California Gulch site consists of about 18 square miles in Lake County, Colorado...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0801478"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      Black Butte Mine
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    Black Butte Mine is located near Cottage Grove, Oregon. Mercury mining in the late 1880s...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=1001865"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      Celotex Corporation
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The Celotex site is located at 2800 S. Sacramento in a portion of Chicago's South Lawndale...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0506225"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="cardCarouselRow carousel-item"
+            style={
+              Object {
+                "paddingLeft": "9.3vw",
+              }
+            }
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      Roebling Steel Co.
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The Roebling Steel Company site is located next to the Delaware River in Florence Township...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0200439"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      Palmerton Zinc Pile
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The Palmerton Zinc Pile Site is the area of a former primary zinc smelting operation...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0300624"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+              <div
+                className="col"
+              >
+                <div
+                  className="successStoryBox container"
+                >
+                  <h5>
+                    <b>
+                      Jasksonville Ash Site
+                    </b>
+                  </h5>
+                  <p
+                    className="successStoryText"
+                  >
+                    The Jacksonville Ash Site includes three separate areas in Jacksonville, Duval County, Florida...
+                  </p>
+                  <a
+                    href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0407002"
+                    style={
+                      Object {
+                        "textDecoration": "None",
+                      }
+                    }
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          className="carousel-control-prev"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-prev-icon"
+          />
+          <span
+            className="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          className="carousel-control-next"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-next-icon"
+          />
+          <span
+            className="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      className="modelCard container-fluid"
+    >
+      <a
+        className="link"
+        href="/superfunds"
+        onClick={[Function]}
+      >
+        <div
+          className="modelCardSuperfundSite container-fluid"
+        >
+          <div
+            className="modelCardContent container-fluid"
+          >
+            <h1
+              className="modelCardTitle"
+            >
+              Superfund Sites
+            </h1>
+            <p
+              className="modelCardText"
+            >
+              Superfund sites are locations labelled as particularly hazardous by the EPA. Cleanup efforts are mandated by the US government, but often it is difficult to repair the environmental and health damage caused by contaminants.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div
+      className="modelCard container-fluid"
+    >
+      <a
+        className="link"
+        href="/chemicals"
+        onClick={[Function]}
+      >
+        <div
+          className="modelCardContaminant container-fluid"
+        >
+          <div
+            className="modelCardContent container-fluid"
+          >
+            <h1
+              className="modelCardTitle"
+            >
+              Contaminants
+            </h1>
+            <p
+              className="modelCardText"
+            >
+              TSCA chemicals are substances tracked by the EPA, including hings like lead and biphenyl. Many of these are dangerous when released into the environment and pose both environmental and health risks.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div
+      className="modelCard container-fluid"
+    >
+      <a
+        className="link"
+        href="/cities"
+        onClick={[Function]}
+      >
+        <div
+          className="modelCardCity container-fluid"
+        >
+          <div
+            className="modelCardContent container-fluid"
+          >
+            <h1
+              className="modelCardTitle"
+            >
+              Cities
+            </h1>
+            <p
+              className="modelCardText"
+            >
+              Cities and towns can be particularly vulnerable to contaminants released by Superfund sites, as the high population density leads to a greater risk of collateral damage from toxic sites.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home renders correctly 1`] = `
+<div
+  className="cardContainer"
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "gap": "2rem",
+        "justifyContent": "center",
+        "marginTop": "1.5rem",
+      }
+    }
+  >
+    <div
+      className="input-group"
+      style={
+        Object {
+          "maxWidth": "75%",
+        }
+      }
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        value=""
+      />
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+  <div
+    className="modelCard container-fluid"
+  >
+    <div
+      className="modelCardAlert container-fluid"
+    >
+      <div
+        className="modelCardContent container-fluid"
+      >
+        <h1
+          className="alertSubtitle"
+        >
+          Are you in danger of
+        </h1>
+        <h1
+          className="alertTitle"
+        >
+          contamination?
+        </h1>
+        <p
+          style={
+            Object {
+              "marginTop": "1rem",
+            }
+          }
+        >
+          <a
+            href="https://www.epa.gov/p2"
+            style={
+              Object {
+                "textDecoration": "none",
+              }
+            }
+          >
+            Prevent pollution
+          </a>
+           
+          in your community
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="modelCardCarousel container"
+  >
+    <h1
+      style={
+        Object {
+          "fontWeight": "bold",
+          "paddingBottom": "1rem",
+        }
+      }
+    >
+      Superfund Success Stories
+    </h1>
+    <div
+      className="carousel slide carousel-dark"
+      onKeyDown={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="carousel-inner"
+      >
+        <div
+          className="cardCarouselRow active carousel-item"
+          style={
+            Object {
+              "paddingLeft": "9.3vw",
+            }
+          }
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    Pantex Plant
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The Pantex Plant Superfund Site is located 17 miles northeast of Amarillo, Texas...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0604060"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    RSR Corporation
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The RSR Corporation Superfund site is a former lead smelter located in West Dallas...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0602297"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    Eastland Woolen Mill
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The 25-acre Eastland Woolen Mill Superfund Site is located in the Town of Coriima...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0101043"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="cardCarouselRow carousel-item"
+          style={
+            Object {
+              "paddingLeft": "9.3vw",
+            }
+          }
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    California Gulch
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The California Gulch site consists of about 18 square miles in Lake County, Colorado...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0801478"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    Black Butte Mine
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  Black Butte Mine is located near Cottage Grove, Oregon. Mercury mining in the late 1880s...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=1001865"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    Celotex Corporation
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The Celotex site is located at 2800 S. Sacramento in a portion of Chicago's South Lawndale...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0506225"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="cardCarouselRow carousel-item"
+          style={
+            Object {
+              "paddingLeft": "9.3vw",
+            }
+          }
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    Roebling Steel Co.
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The Roebling Steel Company site is located next to the Delaware River in Florence Township...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0200439"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    Palmerton Zinc Pile
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The Palmerton Zinc Pile Site is the area of a former primary zinc smelting operation...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0300624"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="successStoryBox container"
+              >
+                <h5>
+                  <b>
+                    Jasksonville Ash Site
+                  </b>
+                </h5>
+                <p
+                  className="successStoryText"
+                >
+                  The Jacksonville Ash Site includes three separate areas in Jacksonville, Duval County, Florida...
+                </p>
+                <a
+                  href="https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0407002"
+                  style={
+                    Object {
+                      "textDecoration": "None",
+                    }
+                  }
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-prev-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Previous
+        </span>
+      </a>
+      <a
+        className="carousel-control-next"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-next-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Next
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="modelCard container-fluid"
+  >
+    <a
+      className="link"
+      href="/superfunds"
+      onClick={[Function]}
+    >
+      <div
+        className="modelCardSuperfundSite container-fluid"
+      >
+        <div
+          className="modelCardContent container-fluid"
+        >
+          <h1
+            className="modelCardTitle"
+          >
+            Superfund Sites
+          </h1>
+          <p
+            className="modelCardText"
+          >
+            Superfund sites are locations labelled as particularly hazardous by the EPA. Cleanup efforts are mandated by the US government, but often it is difficult to repair the environmental and health damage caused by contaminants.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    className="modelCard container-fluid"
+  >
+    <a
+      className="link"
+      href="/chemicals"
+      onClick={[Function]}
+    >
+      <div
+        className="modelCardContaminant container-fluid"
+      >
+        <div
+          className="modelCardContent container-fluid"
+        >
+          <h1
+            className="modelCardTitle"
+          >
+            Contaminants
+          </h1>
+          <p
+            className="modelCardText"
+          >
+            TSCA chemicals are substances tracked by the EPA, including hings like lead and biphenyl. Many of these are dangerous when released into the environment and pose both environmental and health risks.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    className="modelCard container-fluid"
+  >
+    <a
+      className="link"
+      href="/cities"
+      onClick={[Function]}
+    >
+      <div
+        className="modelCardCity container-fluid"
+      >
+        <div
+          className="modelCardContent container-fluid"
+        >
+          <h1
+            className="modelCardTitle"
+          >
+            Cities
+          </h1>
+          <p
+            className="modelCardText"
+          >
+            Cities and towns can be particularly vulnerable to contaminants released by Superfund sites, as the high population density leads to a greater risk of collateral damage from toxic sites.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Superfunds filter renders correctly 1`] = `<div />`;
+
+exports[`Superfunds instance renders correctly 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "width": "18rem",
+    }
+  }
+>
+  <img
+    className="card-img-top"
+    height="150"
+    width="200"
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+      <span />
+    </div>
+    <p>
+      NPL Status: 
+      <span />
+    </p>
+    <p>
+      Number of TSCA Chemicals: 
+      <span />
+    </p>
+    <p>
+      City: 
+      <a
+        href="/cities/undefined"
+        onClick={[Function]}
+      >
+        <span />
+      </a>
+    </p>
+    <p>
+      State: 
+      <span />
+    </p>
+    <p>
+      County: 
+      <span />
+    </p>
+    <a
+      href="/superfunds/undefined"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        type="button"
+      >
+        See more
+      </button>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Superfunds renders correctly 1`] = `<div />`;
+
+exports[`Superfunds search renders correctly 1`] = `<div />`;
+
+exports[`Superfunds sort renders correctly 1`] = `<div />`;

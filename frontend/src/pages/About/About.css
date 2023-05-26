@@ -1,0 +1,36 @@
+.dev-image {
+    max-height: 450px;
+    max-width: 450px;
+}
+
+.dev-card {
+    width: 22rem;
+    padding: 1rem 2rem;
+    height: 45rem;
+}
+
+.text-content {
+    padding: 0 8rem;
+}
+
+.smaller-text {
+    padding: 0 14rem;
+}
+
+.dev {
+    padding: 1rem 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    background-color: #f2f3f5;
+}
+
+#inner {
+    background-color: white;
+}

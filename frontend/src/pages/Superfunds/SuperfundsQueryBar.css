@@ -1,0 +1,19 @@
+.filterTitle {
+  font-weight: bold;
+}
+
+.queryBarBox {
+  background-color: rgb(230, 230, 230);
+  border-radius: 12px;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.resultCount {
+  padding-top: 2rem;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}

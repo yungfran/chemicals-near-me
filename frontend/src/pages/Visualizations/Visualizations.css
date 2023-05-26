@@ -1,0 +1,20 @@
+.visualizationBox {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 90%;
+  height: 500px;
+  align-content: center;
+}
+
+.visualizationTitle {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.customTooltip {
+  background-color: white;
+  padding: 0.5rem;
+  padding-bottom: 0.1rem;
+  outline: 0.1rem solid gray;
+}

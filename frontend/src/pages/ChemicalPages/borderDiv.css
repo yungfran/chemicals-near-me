@@ -1,0 +1,10 @@
+.div{
+    border: solid 1px #ccc; 
+    width: 500px; 
+    max-width: 100%;
+}
+
+.iframe{
+    border: 0; 
+    height: 700px;
+}

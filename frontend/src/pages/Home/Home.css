@@ -1,0 +1,176 @@
+html {
+  margin: 0;
+}
+
+.introText {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.cardContainer {
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.modelCard {
+  flex-flow: column nowrap;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+
+.modelCardAlert {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../../cnme_logo.svg");
+  flex-flow: column nowrap;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 10vw;
+  padding-bottom: 12vw;
+  margin: 0;
+}
+
+.alertSubtitle {
+  color: black;
+  text-align: center;
+}
+
+.alertTitle {
+  color: rgba(136, 22, 22, 1);
+  font-weight: bold;
+  text-align: center;
+}
+
+.modelCardSuperfundSite {
+  background: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("https://content.fortune.com/wp-content/uploads/2018/10/wasteland52.jpg");
+  flex-flow: column nowrap;
+  background-position: center;
+  background-size: cover;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 10vw;
+  padding-bottom: 8vw;
+  margin: 0;
+  transition: 0.4s;
+}
+
+.modelCardSuperfundSite:hover {
+  opacity: 0.9;
+}
+
+.modelCardContaminant {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("https://cdn.theatlantic.com/thumbor/4dF2mZd0DTC6pT0tx1cNL2JZLG0=/0x75:3029x1779/1600x900/media/img/mt/2017/09/RTXX3CV/original.jpg");
+  flex-flow: column nowrap;
+  background-position: center;
+  background-size: cover;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 8vw;
+  padding-bottom: 8vw;
+  margin: 0;
+  transition: 0.4s;
+}
+
+.modelCardContaminant:hover {
+  opacity: 0.9;
+}
+
+.modelCardCity {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65),
+      rgba(255, 255, 255, 1)
+    ),
+    url("https://www.nlc.org/wp-content/uploads/2018/03/GettyImages-655590680_0.jpg");
+  flex-flow: column nowrap;
+  background-position: center;
+  background-size: cover;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 8vw;
+  padding-bottom: 10vw;
+  margin: 0;
+  transition: 0.4s;
+}
+
+.modelCardCity:hover {
+  opacity: 0.9;
+}
+
+.modelCardContent {
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  text-align: center;
+  max-width: 500px;
+}
+
+.modelCardTitle {
+  color: white;
+  font-weight: bold;
+}
+
+.modelCardText {
+  color: white;
+}
+
+.successStoriesTitle {
+  margin-bottom: 1rem;
+}
+
+.modelCardCarousel {
+  max-width: 70vw;
+  min-width: 300px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.carousel-inner {
+  justify-content: start;
+  align-content: start;
+  justify-items: start;
+  align-items: start;
+}
+
+.cardCarouselRow {
+  max-width: 60vw;
+  min-width: 300px;
+}
+
+.successStoryBox {
+  background-position: center;
+  background-size: cover;
+  max-width: 300px;
+  min-width: 200px;
+  text-overflow: ellipsis;
+}
+
+.successStoryText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
